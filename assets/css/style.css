@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 5em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("../imgs/imagen\ encabezado.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 3em;
+    font-family: fantasy;
+    font-weight: 500;
+    color: rgb(163, 71, 99);
+}
+
+header p{
+    margin: 0;
+    font-style: oblique;
+    padding-inline-start: 3em;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+    
+}
+
+.producto{
+    padding: 1em;
+}
+
+.imagen{
+    height: 15em;
+    display: inline-block;
+}
+.imagen img{ 
+    height: 15em;
+    vertical-align: middle;
+}
+
+.texto {
+    display: inline-block;
+}
+
+.nombreproducto{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0%;
+}
+
+p{
+    margin: 0%;
+}
+
+footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(163, 71, 99);
+    color: rgb(252, 225, 220);
+    text-align: center;
+    font-weight: 950;
+}
